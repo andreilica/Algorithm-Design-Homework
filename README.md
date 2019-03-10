@@ -30,7 +30,7 @@ Algoritmul folosit de mine este urmatorul:
 Apoi se parcurge fiecare concurs in parte si se alege jucatorul astfel:
 	Daca numarul concursului este divizibil cu 2, este randul lui Jon, altfel este randul lui Sam. Cand alege Jon, el va alege primul concurs pe care il gaseste la pozitia respectiva. Sam va alege, in caz ca 2 sau mai multe,concursuri au aceeasi suma, ultimul concurs ce are suma respectiva. Astfel, se garanteaza respectarea tuturor conditiilor din cerinta pentru alegerea concursurilor de catre cei doi participanti.
 
-Complexitatea temporala a algoritmului folosit este O(nlogn + n^2), fapt pentru care rezultatele ultimelor doua teste sunt corecte, dar nu se incadreaza in limita de timp.
+Complexitatea temporala a algoritmului folosit este O(nlogn + n^2).
 
 
 Problema Numaratoare
@@ -49,4 +49,4 @@ Algoritmul folosit de mine este urmatorul:
 	Implementarea se face folosind backtracking pentru a gasi toate modurile de a descompune numarul s in suma de numere intregi, strict pozitive. Daca solutia este valida(lungimea solutiei == n), se adauga intr-un ArrayList de solutii si se incrementeaza un contor de retine numarul de solutii gasite.
 	Dupa completarea intregului ArrayList, acesta se sorteaza descrescator conform criteriului din cerinta(dupa fiecare numar din solutie). La final, se alege solutia de pe pozitia i si se creaza String-ul ce va fi scris in fisierul de output. In caz ca pozitia i este mai mare decat numarul de solutii gasite, se va afisa '-'.
 
-Complexitatea temporala a acestui algoritm este O(nlogn + 2^n), fapt pentru care doar primele 4 teste se incadreaza in limita de timp impusa.
+Complexitatea temporala a acestui algoritm este O(nlogn + 2^n).
