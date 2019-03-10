@@ -27,7 +27,7 @@ IMPLEMENTARE
 Algoritmul folosit de mine este urmatorul: 
 	Am sortat descrescator concursurile dupa suma dintre numarul de jocuri si numarul de benzi ale fiecarui concurs, iar in caz ca sumele erau egale, sortarea se face descrescator dupa numarul de jocuri (obiecte preferate ale lui Jon).
 
-	Apoi se parcurge fiecare concurs in parte si se alege jucatorul astfel:
+Apoi se parcurge fiecare concurs in parte si se alege jucatorul astfel:
 	Daca numarul concursului este divizibil cu 2, este randul lui Jon, altfel este randul lui Sam. Cand alege Jon, el va alege primul concurs pe care il gaseste la pozitia respectiva. Sam va alege, in caz ca 2 sau mai multe,concursuri au aceeasi suma, ultimul concurs ce are suma respectiva. Astfel, se garanteaza respectarea tuturor conditiilor din cerinta pentru alegerea concursurilor de catre cei doi participanti.
 
 Complexitatea temporala a algoritmului folosit este O(nlogn + n^2), fapt pentru care rezultatele ultimelor doua teste sunt corecte, dar nu se incadreaza in limita de timp.
