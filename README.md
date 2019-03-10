@@ -1,4 +1,3 @@
-==============
 Problema Frati
 ==============
 
@@ -34,7 +33,6 @@ Algoritmul folosit de mine este urmatorul:
 Complexitatea temporala a algoritmului folosit este O(nlogn + n^2), fapt pentru care rezultatele ultimelor doua teste sunt corecte, dar nu se incadreaza in limita de timp.
 
 
-====================
 Problema Numaratoare
 ====================
 
